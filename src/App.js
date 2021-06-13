@@ -1,6 +1,11 @@
+import React from "react";
+import ExpenseItem from "./components/ExpenseItem";
+
 function App() {
   return (
-    <h1>Hi There!!</h1>
+    <div>
+      <ExpenseItem />
+    </div>
   );
 }
 
